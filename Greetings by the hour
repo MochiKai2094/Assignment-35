@@ -1,0 +1,15 @@
+#Name: Roberto Quinonez
+#Email: roberto.quinonez79@myhunter.cuny.edu
+#Date: October 28, 2023
+#This program prints: Greetings by the hour
+
+hour = int(input("Enter hour (in 24-hour time): "))
+
+if hour < 12:
+   print("Good Morning")
+
+elif hour < 17:
+   print("Good Afternoon")
+
+else:
+   print("Good Evening")
